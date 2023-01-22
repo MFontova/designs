@@ -15,7 +15,9 @@ class CustomBottomNavigationBar extends StatelessWidget {
           BottomNavigationBarItem(
               icon: Icon(Icons.calendar_month), label: 'Calendar'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.pie_chart_outline), label: 'Graphic')
+              icon: Icon(Icons.pie_chart_outline), label: 'Graphic'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.other_houses), label: 'Others')
         ]);
   }
 }
